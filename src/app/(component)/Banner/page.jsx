@@ -36,14 +36,13 @@ const Banner = () => {
                     </div>
                 </div>
                 {/* image */}
-                <div className="flex mt-7 lg:mt-0 relative h-screen w-[100%] lg:w-[60%]"
+                <div className="flex mt-7 lg:mt-0 relative h-screen w-[100%] lg:w-[60%] bg-contain md:bg-cover  "
                     style={{
                         backgroundImage: 'url("/TravellerImage.png")',
                         backgroundPosition: 'top right',
-                        backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
                     }}>
-                    <img src={'/airplane.png'} alt="airplane" className='w-[100px] lg:w-[160px] h-[80px] absolute top-[5%] md:top-[15%] ' />
+                    <img src={'/airplane.png'} alt="airplane" className='w-[100px] lg:w-[160px] h-[80px] absolute top-[5%] -left-[10%] md:-left-[0%] md:top-[15%] ' />
                 </div>
             </div>
         </div>
