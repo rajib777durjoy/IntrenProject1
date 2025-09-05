@@ -7,7 +7,7 @@ const Dastinations = () => {
     const [datas, setdata] = useState(data);
     console.log('data', datas)
     return (
-        <div className='w-[90%] mx-auto min-h-screen mt-10'>
+        <div className='w-[90%] mx-auto min-h-screen py-10'>
             <h1 className='text-[#5E6282] text-center text-2xl font-semibold font-poppins'>Top Selling</h1>
             <h2 className='text-center text-4xl lg:text-6xl font-bold font-volkhov py-5'>Top Destinations</h2>
             <div className="grid md:grid-cols-3 gap-4  mt-10 text-[#5E6282] relative ">

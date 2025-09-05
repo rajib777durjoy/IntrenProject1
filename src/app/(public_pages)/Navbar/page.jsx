@@ -8,8 +8,7 @@ const Navbar = () => {
         <li className='text-black list-none font-medium font-sans hover:text-amber-600 mx-4'>Hotels</li>
         <li className='text-black list-none font-medium font-sans hover:text-amber-600 mx-4'>Flights</li>
         <li className='text-black list-none font-medium font-sans hover:text-amber-600 mx-4'>Bookings</li>
-        <li className='text-black list-none  hover:text-amber-600 mx-4'>Login</li>
-        <li className='text-black list-none hover:text-amber-600  mx-4 '>SignUp</li>
+
         <select defaultValue="EN" className="text-black hover:text-amber-600 mx-4">
             <option>EN</option>
             <option>BN</option>
@@ -18,7 +17,7 @@ const Navbar = () => {
         </select>
     </>
     return (<>
-        <div className="navbar w-[90%] mx-auto shadow-md rounded-md ">
+        <div className="navbar w-[90%] mx-auto rounded-md ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost  lg:hidden text-2xl text-black">
@@ -32,17 +31,18 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-               <Image src={'/Travello.png'} alt='' width={100} height={40} className=' ' />
+                <Image src={'/Travello.png'} alt='' width={100} height={40} className=' ' />
             </div>
-            <div className="navbar hidden lg:flex">
+            <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
 
                     {link}
                 </ul>
             </div>
-            {/* <div className="navbar-end">
-                <a className="btn">Button</a>
-            </div> */}
+            <div className="navbar-end">
+                <li className='text-black list-none  hover:text-amber-600 mx-4'>Login</li>
+                <li className='text-black list-none hover:text-amber-600  mx-4 '>SignUp</li>
+            </div>
         </div>
         {/* <div className='flex justify-between items-center gap-4'>
                 <li className='text-black list-none font-medium font-sans mx-4'>Desitnations</li>

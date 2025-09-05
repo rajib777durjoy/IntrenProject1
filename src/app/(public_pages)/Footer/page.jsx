@@ -4,7 +4,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className='w-[100%] min-h-[400px] bg-white '>
+        <div className='w-[100%] min-h-[400px] bg-white shadow-md border-2 py-10 '>
             <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-10 w-[90%] mx-auto pt-4'>
                 <div>
                     <img src="/Travello.png" alt="" />

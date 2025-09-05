@@ -3,7 +3,7 @@ import { BsSendFill } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 const Subscribe = () => {
     return (
-        <div className='w-[90%] min-h-[400px] '>
+        <div className='w-[90%] min-h-[500px] shadow-md py-10'>
             <div className='w-[100%] h-[70px] relative'>
                 <div className='w-[40px] h-[40px] lg:w-[60px] flex items-center rounded-full  lg:h-[60px]  absolute right-0 my-4 bg-gradient-to-r from-[#747DEF] to-[#5E3BE1]'>
                     <BsSendFill className='text-white text-2xl lg:text-4xl mx-auto' />

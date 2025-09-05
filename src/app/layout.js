@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.variable}  ${volkhov.variable} antialiased bg-white`}
       >
-        <header className="max-w-[1920px] fixed left-0 right-0 bg-transparent z-30">
+        <header className="max-w-[1920px] fixed left-0 right-0 bg-amber-100 shadow-md z-30">
           <Navbar></Navbar>
         </header>
         {children}

@@ -2,7 +2,7 @@ import React from 'react';
 import { CiHeart } from "react-icons/ci";
 const BookingTrip = () => {
     return (
-        <div className='w-[90%] mx-auto  min-h-screen mt-10'>
+        <div className='w-[90%] mx-auto  min-h-screen py-10'>
             <h1 className='text-[#5E6282] text-2xl font-poppins font-semibold'>Easy and Fast</h1>
             <div className='grid lg:grid-cols-2 gap-10 my-4'>
                 <div className='rounded-xl shadow-md shadow-[#5E6282] p-4'>

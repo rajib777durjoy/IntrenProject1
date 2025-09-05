@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonial = () => {
     return (
-        <div className='w-[90%] mx-auto min-h-[400px] grid lg:grid-cols-2 mt-10'>
+        <div className='w-[90%] mx-auto min-h-[400px] grid lg:grid-cols-2 py-10 shadow-md shadow-gray-300 rounded-lg'>
             <div>
                 <h1 className='text-[#5E6282] text-2xl font-poppins font-semibold'>Testimonials</h1>
                 <h2 className='text-4xl lg:text-6xl text-[#14183E] font-bold mt-4'>What people say <br />
